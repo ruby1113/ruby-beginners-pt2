@@ -1,4 +1,6 @@
+# frozen_string_literal: true
+
 #!/usr/bin/env ruby
 require_relative '../lib/tutorial/greeter'
-name = ARGV[0] || "World"
+name = ARGV[0] || 'World'
 puts Tutorial::Greeter.new(name).greet
